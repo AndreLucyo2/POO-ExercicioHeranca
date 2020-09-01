@@ -47,12 +47,6 @@ public class PessoaJuridica extends Pessoa
     }
 
     @Override
-    public String toString()
-    {
-	return "PessoaJuridica{" + "cnpj=" + cnpj + ", razao=" + razao + '}';
-    }
-
-    @Override
     public String imprimeDados()
     {
 	return "PessoaJuridica:"

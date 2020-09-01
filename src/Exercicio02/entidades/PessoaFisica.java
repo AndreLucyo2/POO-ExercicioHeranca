@@ -47,16 +47,6 @@ public class PessoaFisica extends Pessoa
     }
 
     @Override
-    public String toString()
-    {
-	return "PessoaFisica{"
-		+ "\nnome= " + super.getNome()
-		+ "\ncpf= " + cpf
-		+ "\nsexo= " + sexo
-		+ "\nnome= " + super.getNome();
-    }
-
-    @Override
     public String imprimeDados()
     {
 	return "PessoaFisica:"
